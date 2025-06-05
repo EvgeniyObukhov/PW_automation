@@ -4,37 +4,127 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b8f6618a-3247-45f9-ac1d-5c9557db2176" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/PW_automation.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="b8f6618a-3247-45f9-ac1d-5c9557db2176" name="Changes" comment="еыуе">
+      <change afterPath="$PROJECT_DIR$/.env.example" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.github/workflows/pytest.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/configs/base_config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/configs/dev_config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/configs/prod_config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/configs/pytest.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conftest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fixtures/test_users.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pytest.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requirements/base.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requirements/dev.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requirements/prod.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run_tests.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/api/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/api/conftest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/api/test_auth_api.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/api/test_user_api.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/e2e/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/e2e/test_checkout_flow.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/ui/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/ui/conftest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/ui/pages/base_page.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/ui/pages/dashboard.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/ui/pages/login_page.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/ui/pages/text_box_page.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/ui/test_dashboard.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/ui/test_login.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/ui/test_text_box.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/allure_helpers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/api_client.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/db_client.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/logger.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 2
 }]]></component>
   <component name="ProjectId" id="2y55c4Ns1mAFMpvjN5C4KYLmL3S" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python tests.Python tests for test_text_box.TestTextBox.executor": "Run",
+    "Python tests.Python tests in test_text_box.py.executor": "Run",
+    "Python.conftest.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true"
   }
 }]]></component>
+  <component name="RunManager" selected="Python tests.Python tests for test_text_box.TestTextBox">
+    <configuration name="conftest" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PW_automation" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/ui" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tests/ui/conftest.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_text_box.TestTextBox" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="PW_automation" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/ui" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_text_box.TestTextBox&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.Python tests for test_text_box.TestTextBox" />
+        <item itemvalue="Python.conftest" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -51,6 +141,19 @@
       <option name="presentableId" value="Default" />
       <updated>1749111670008</updated>
     </task>
+    <task id="LOCAL-00001" summary="еыуе">
+      <option name="closed" value="true" />
+      <created>1749113330094</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1749113330094</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="еыуе" />
+    <option name="LAST_COMMIT_MESSAGE" value="еыуе" />
   </component>
 </project>

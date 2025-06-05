@@ -1,0 +1,30 @@
+# Core
+pytest==7.4.0
+pytest-xdist==3.3.1  # Для параллельного запуска
+
+# API Testing
+requests==2.31.0
+requests-toolbelt==1.0.0
+jsonschema==4.19.0  # Валидация JSON-схем
+
+# UI Testing
+playwright==1.39.0
+pytest-playwright==0.4.0
+
+# Reporting
+allure-pytest==2.13.2
+allure-python-commons==2.13.2
+
+# Utilities
+python-dotenv==1.0.0  # Работа с .env
+Faker==18.11.2  # Генерация тестовых данных
+pydantic==2.3.0  # Валидация данных
+loguru==0.7.0  # Логирование
+
+# Для работы с БД (если нужно)
+psycopg2-binary==2.9.7  # PostgreSQL
+SQLAlchemy==2.0.21
+
+# Code Quality
+pylint==2.17.5
+black==23.7.0  # Форматирование кода
