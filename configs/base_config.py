@@ -12,7 +12,7 @@ class BaseConfig:
     # 1. Общие настройки
     PROJECT_ROOT = Path(__file__).parent.parent
     LOG_LEVEL = os.getenv("LOG_LEVEL", "INFO")  # DEBUG, INFO, WARNING
-    BASE_DEMOQA_URL = "https://demoqa.com/"
+    BASE_DEMOQA_URL = "https://demoqa.com"
 
     # 2. API-настройки
     API_BASE_URL = os.getenv("API_BASE_URL", "https://api.example.com")

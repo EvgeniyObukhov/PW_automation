@@ -1,5 +1,6 @@
 from patchright.sync_api import Page
 from configs.base_config import BaseConfig
+from patchright.sync_api import TimeoutError as PlaywrightTimeoutError
 
 class TextBoxPage:
     def __init__(self, page: Page):
@@ -8,7 +9,16 @@ class TextBoxPage:
 
     def navigate(self):
         """Открывает страницу Text Box"""
-        self.page.goto(f"{self.base_url}/text-box")
+        try:
+            self.page.goto(
+                f"{self.base_url}/text-box",
+                    timeout = 60_000,
+                    wait_until = "domcontentloaded"
+                    )
+        except PlaywrightTimeoutError:
+            self.page.screenshot(path="error.png")
+            raise Exception(f"Не удалось загрузить страницу {self.base_url}/text-box")
+
 
     def fill_form(self, name: str, email: str, address: str):
         """Заполняет форму Text Box"""
