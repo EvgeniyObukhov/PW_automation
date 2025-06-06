@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b8f6618a-3247-45f9-ac1d-5c9557db2176" name="Changes" comment="Pochti&#10;a">
+    <list default="true" id="b8f6618a-3247-45f9-ac1d-5c9557db2176" name="Changes" comment="commit process">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configs/base_config.py" beforeDir="false" afterPath="$PROJECT_DIR$/configs/base_config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/ui/pages/text_box_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/ui/pages/text_box_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytest.ini" beforeDir="false" afterPath="$PROJECT_DIR$/pytest.ini" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +40,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Python tests.Python tests for test_text_box.TestTextBox.executor": "Run",
-    "Python tests.Python tests for test_text_box.TestTextBox.test_text_box_form_submission.executor": "Debug",
+    "Python tests.Python tests for test_text_box.TestTextBox.test_text_box_form_submission.executor": "Run",
     "Python tests.Python tests in test_text_box.py.executor": "Run",
     "Python.conftest.executor": "Run",
     "Python.text_box_page.executor": "Run",
@@ -165,12 +164,32 @@
       <option name="project" value="LOCAL" />
       <updated>1749132349140</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="commit process">
+      <option name="closed" value="true" />
+      <created>1749194530244</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1749194530244</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="еыуе" />
     <MESSAGE value="Pochti&#10;a" />
-    <option name="LAST_COMMIT_MESSAGE" value="Pochti&#10;a" />
+    <MESSAGE value="commit process" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit process" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tests/ui/test_text_box.py</url>
+          <line>25</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
